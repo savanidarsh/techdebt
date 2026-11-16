@@ -1,0 +1,863 @@
+{
+  "project": "humanize",
+  "summary": {
+    "total_files": 6,
+    "total_functions": 38,
+    "total_smells": 0,
+    "total_duplicate_patterns": 15,
+    "complexity_bands": {
+      "A": 25,
+      "B": 9,
+      "E": 1,
+      "D": 1,
+      "C": 2
+    }
+  },
+  "functions": [
+    {
+      "file": "time.py",
+      "name": "_now",
+      "line": 49,
+      "end_line": 52,
+      "length": 4,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "time.py",
+      "name": "_abs_timedelta",
+      "line": 55,
+      "end_line": 64,
+      "length": 10,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "time.py",
+      "name": "_date_and_delta",
+      "line": 67,
+      "end_line": 91,
+      "length": 25,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "time.py",
+      "name": "naturaldelta",
+      "line": 94,
+      "end_line": 257,
+      "length": 164,
+      "complexity": 35,
+      "rank": "E"
+    },
+    {
+      "file": "time.py",
+      "name": "naturaltime",
+      "line": 260,
+      "end_line": 308,
+      "length": 49,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "time.py",
+      "name": "_convert_aware_datetime",
+      "line": 311,
+      "end_line": 322,
+      "length": 12,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "time.py",
+      "name": "naturalday",
+      "line": 325,
+      "end_line": 360,
+      "length": 36,
+      "complexity": 8,
+      "rank": "B"
+    },
+    {
+      "file": "time.py",
+      "name": "naturaldate",
+      "line": 363,
+      "end_line": 383,
+      "length": 21,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "time.py",
+      "name": "_quotient_and_remainder",
+      "line": 386,
+      "end_line": 428,
+      "length": 43,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "time.py",
+      "name": "_suitable_minimum_unit",
+      "line": 431,
+      "end_line": 457,
+      "length": 27,
+      "complexity": 5,
+      "rank": "A"
+    },
+    {
+      "file": "time.py",
+      "name": "_suppress_lower_units",
+      "line": 460,
+      "end_line": 473,
+      "length": 14,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "time.py",
+      "name": "precisedelta",
+      "line": 476,
+      "end_line": 680,
+      "length": 205,
+      "complexity": 26,
+      "rank": "D"
+    },
+    {
+      "file": "time.py",
+      "name": "_rounding_by_fmt",
+      "line": 683,
+      "end_line": 701,
+      "length": 19,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "time.py",
+      "name": "Unit",
+      "line": 33,
+      "end_line": 46,
+      "length": 14,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "time.py",
+      "name": "Unit.__lt__",
+      "line": 43,
+      "end_line": 46,
+      "length": 4,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "lists.py",
+      "name": "natural_list",
+      "line": 13,
+      "end_line": 40,
+      "length": 28,
+      "complexity": 5,
+      "rank": "A"
+    },
+    {
+      "file": "number.py",
+      "name": "_format_not_finite",
+      "line": 81,
+      "end_line": 91,
+      "length": 11,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "number.py",
+      "name": "ordinal",
+      "line": 94,
+      "end_line": 141,
+      "length": 48,
+      "complexity": 5,
+      "rank": "A"
+    },
+    {
+      "file": "number.py",
+      "name": "intcomma",
+      "line": 144,
+      "end_line": 204,
+      "length": 61,
+      "complexity": 10,
+      "rank": "B"
+    },
+    {
+      "file": "number.py",
+      "name": "intword",
+      "line": 224,
+      "end_line": 299,
+      "length": 76,
+      "complexity": 7,
+      "rank": "B"
+    },
+    {
+      "file": "number.py",
+      "name": "apnumber",
+      "line": 302,
+      "end_line": 340,
+      "length": 39,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "number.py",
+      "name": "fractional",
+      "line": 343,
+      "end_line": 411,
+      "length": 69,
+      "complexity": 5,
+      "rank": "A"
+    },
+    {
+      "file": "number.py",
+      "name": "scientific",
+      "line": 414,
+      "end_line": 458,
+      "length": 45,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "number.py",
+      "name": "clamp",
+      "line": 461,
+      "end_line": 536,
+      "length": 76,
+      "complexity": 9,
+      "rank": "B"
+    },
+    {
+      "file": "number.py",
+      "name": "metric",
+      "line": 539,
+      "end_line": 614,
+      "length": 76,
+      "complexity": 12,
+      "rank": "C"
+    },
+    {
+      "file": "filesize.py",
+      "name": "naturalsize",
+      "line": 39,
+      "end_line": 111,
+      "length": 73,
+      "complexity": 12,
+      "rank": "C"
+    },
+    {
+      "file": "i18n.py",
+      "name": "_get_default_locale_path",
+      "line": 44,
+      "end_line": 52,
+      "length": 9,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "i18n.py",
+      "name": "get_translation",
+      "line": 55,
+      "end_line": 56,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "i18n.py",
+      "name": "activate",
+      "line": 59,
+      "end_line": 95,
+      "length": 37,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "i18n.py",
+      "name": "deactivate",
+      "line": 98,
+      "end_line": 100,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "i18n.py",
+      "name": "_gettext",
+      "line": 103,
+      "end_line": 112,
+      "length": 10,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "i18n.py",
+      "name": "_pgettext",
+      "line": 115,
+      "end_line": 128,
+      "length": 14,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "i18n.py",
+      "name": "_ngettext",
+      "line": 131,
+      "end_line": 143,
+      "length": 13,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "i18n.py",
+      "name": "_gettext_noop",
+      "line": 146,
+      "end_line": 162,
+      "length": 17,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "i18n.py",
+      "name": "_ngettext_noop",
+      "line": 165,
+      "end_line": 182,
+      "length": 18,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "i18n.py",
+      "name": "_pgettext_noop",
+      "line": 185,
+      "end_line": 195,
+      "length": 11,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "i18n.py",
+      "name": "thousands_separator",
+      "line": 198,
+      "end_line": 204,
+      "length": 7,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "i18n.py",
+      "name": "decimal_separator",
+      "line": 207,
+      "end_line": 213,
+      "length": 7,
+      "complexity": 1,
+      "rank": "A"
+    }
+  ],
+  "longest_functions": [
+    {
+      "file": "time.py",
+      "name": "precisedelta",
+      "line": 476,
+      "end_line": 680,
+      "length": 205,
+      "complexity": 26,
+      "rank": "D"
+    },
+    {
+      "file": "time.py",
+      "name": "naturaldelta",
+      "line": 94,
+      "end_line": 257,
+      "length": 164,
+      "complexity": 35,
+      "rank": "E"
+    },
+    {
+      "file": "number.py",
+      "name": "intword",
+      "line": 224,
+      "end_line": 299,
+      "length": 76,
+      "complexity": 7,
+      "rank": "B"
+    },
+    {
+      "file": "number.py",
+      "name": "clamp",
+      "line": 461,
+      "end_line": 536,
+      "length": 76,
+      "complexity": 9,
+      "rank": "B"
+    },
+    {
+      "file": "number.py",
+      "name": "metric",
+      "line": 539,
+      "end_line": 614,
+      "length": 76,
+      "complexity": 12,
+      "rank": "C"
+    }
+  ],
+  "hotspots": [
+    {
+      "file": "time.py",
+      "max_complexity": 35,
+      "sloc": 353,
+      "mi": 37.39,
+      "mi_rank": "A",
+      "imports": 9,
+      "score": 2
+    },
+    {
+      "file": "number.py",
+      "max_complexity": 12,
+      "sloc": 254,
+      "mi": 44.87,
+      "mi_rank": "A",
+      "imports": 7,
+      "score": 4
+    },
+    {
+      "file": "filesize.py",
+      "max_complexity": 12,
+      "sloc": 57,
+      "mi": 77.9,
+      "mi_rank": "A",
+      "imports": 3,
+      "score": 6
+    },
+    {
+      "file": "i18n.py",
+      "max_complexity": 6,
+      "sloc": 76,
+      "mi": 69.22,
+      "mi_rank": "A",
+      "imports": 6,
+      "score": 6
+    },
+    {
+      "file": "lists.py",
+      "max_complexity": 5,
+      "sloc": 16,
+      "mi": 86.58,
+      "mi_rank": "A",
+      "imports": 3,
+      "score": 10
+    },
+    {
+      "file": "__init__.py",
+      "max_complexity": 0,
+      "sloc": 52,
+      "mi": 100.0,
+      "mi_rank": "A",
+      "imports": 3,
+      "score": 10
+    }
+  ],
+  "smells": [],
+  "smells_by_file": {},
+  "duplicates": [
+    {
+      "hash": "fa23ac30153a92ee4bafbaa248e69d3e",
+      "instances": 3,
+      "locations": [
+        {
+          "file": "number.py",
+          "start_line": 130,
+          "end_line": 134,
+          "sample": "\"\"\"\nimport math\ntry:\nif not math.isfinite(float(value)):"
+        },
+        {
+          "file": "number.py",
+          "start_line": 258,
+          "end_line": 262,
+          "sample": "\"\"\"\nimport math\ntry:\nif not math.isfinite(float(value)):"
+        },
+        {
+          "file": "number.py",
+          "start_line": 329,
+          "end_line": 333,
+          "sample": "\"\"\"\nimport math\ntry:\nif not math.isfinite(float(value)):"
+        }
+      ],
+      "sample": "\"\"\"\nimport math\ntry:\nif not math.isfinite(float(value)):"
+    },
+    {
+      "hash": "0b6275e7df11b96ce3878c0b28cad147",
+      "instances": 3,
+      "locations": [
+        {
+          "file": "number.py",
+          "start_line": 131,
+          "end_line": 135,
+          "sample": "import math\ntry:\nif not math.isfinite(float(value)):\nreturn _format_not_finite(float(value))"
+        },
+        {
+          "file": "number.py",
+          "start_line": 259,
+          "end_line": 263,
+          "sample": "import math\ntry:\nif not math.isfinite(float(value)):\nreturn _format_not_finite(float(value))"
+        },
+        {
+          "file": "number.py",
+          "start_line": 330,
+          "end_line": 334,
+          "sample": "import math\ntry:\nif not math.isfinite(float(value)):\nreturn _format_not_finite(float(value))"
+        }
+      ],
+      "sample": "import math\ntry:\nif not math.isfinite(float(value)):\nreturn _format_not_finite(float(value))"
+    },
+    {
+      "hash": "637aff94591fe21abcc020c15eba1e3e",
+      "instances": 3,
+      "locations": [
+        {
+          "file": "number.py",
+          "start_line": 133,
+          "end_line": 136,
+          "sample": "try:\nif not math.isfinite(float(value)):\nreturn _format_not_finite(float(value))\nvalue = int(value)"
+        },
+        {
+          "file": "number.py",
+          "start_line": 261,
+          "end_line": 264,
+          "sample": "try:\nif not math.isfinite(float(value)):\nreturn _format_not_finite(float(value))\nvalue = int(value)"
+        },
+        {
+          "file": "number.py",
+          "start_line": 332,
+          "end_line": 335,
+          "sample": "try:\nif not math.isfinite(float(value)):\nreturn _format_not_finite(float(value))\nvalue = int(value)"
+        }
+      ],
+      "sample": "try:\nif not math.isfinite(float(value)):\nreturn _format_not_finite(float(value))\nvalue = int(value)"
+    },
+    {
+      "hash": "c4ca9600b788be701fa9c8d28350530b",
+      "instances": 3,
+      "locations": [
+        {
+          "file": "number.py",
+          "start_line": 134,
+          "end_line": 137,
+          "sample": "if not math.isfinite(float(value)):\nreturn _format_not_finite(float(value))\nvalue = int(value)\nexcept (TypeError, ValueE"
+        },
+        {
+          "file": "number.py",
+          "start_line": 262,
+          "end_line": 265,
+          "sample": "if not math.isfinite(float(value)):\nreturn _format_not_finite(float(value))\nvalue = int(value)\nexcept (TypeError, ValueE"
+        },
+        {
+          "file": "number.py",
+          "start_line": 333,
+          "end_line": 336,
+          "sample": "if not math.isfinite(float(value)):\nreturn _format_not_finite(float(value))\nvalue = int(value)\nexcept (TypeError, ValueE"
+        }
+      ],
+      "sample": "if not math.isfinite(float(value)):\nreturn _format_not_finite(float(value))\nvalue = int(value)\nexcept (TypeError, ValueE"
+    },
+    {
+      "hash": "23f2170e2bb54fc92af57981b47863c3",
+      "instances": 3,
+      "locations": [
+        {
+          "file": "number.py",
+          "start_line": 135,
+          "end_line": 138,
+          "sample": "return _format_not_finite(float(value))\nvalue = int(value)\nexcept (TypeError, ValueError):\nreturn str(value)"
+        },
+        {
+          "file": "number.py",
+          "start_line": 263,
+          "end_line": 266,
+          "sample": "return _format_not_finite(float(value))\nvalue = int(value)\nexcept (TypeError, ValueError):\nreturn str(value)"
+        },
+        {
+          "file": "number.py",
+          "start_line": 334,
+          "end_line": 337,
+          "sample": "return _format_not_finite(float(value))\nvalue = int(value)\nexcept (TypeError, ValueError):\nreturn str(value)"
+        }
+      ],
+      "sample": "return _format_not_finite(float(value))\nvalue = int(value)\nexcept (TypeError, ValueError):\nreturn str(value)"
+    },
+    {
+      "hash": "feec63553a5d9278577085ed9588263e",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "time.py",
+          "start_line": 335,
+          "end_line": 340,
+          "sample": "try:\nif isinstance(value, dt.datetime) and value.tzinfo is not None:\ntoday = dt.datetime.now(value.tzinfo).date()\nelse:"
+        },
+        {
+          "file": "time.py",
+          "start_line": 368,
+          "end_line": 371,
+          "sample": "try:\nif isinstance(value, dt.datetime) and value.tzinfo is not None:\ntoday = dt.datetime.now(value.tzinfo).date()\nelse:"
+        }
+      ],
+      "sample": "try:\nif isinstance(value, dt.datetime) and value.tzinfo is not None:\ntoday = dt.datetime.now(value.tzinfo).date()\nelse:"
+    },
+    {
+      "hash": "a55589c2c6dd2ae90b68d2c271aa0750",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "time.py",
+          "start_line": 338,
+          "end_line": 341,
+          "sample": "if isinstance(value, dt.datetime) and value.tzinfo is not None:\ntoday = dt.datetime.now(value.tzinfo).date()\nelse:\ntoday"
+        },
+        {
+          "file": "time.py",
+          "start_line": 369,
+          "end_line": 372,
+          "sample": "if isinstance(value, dt.datetime) and value.tzinfo is not None:\ntoday = dt.datetime.now(value.tzinfo).date()\nelse:\ntoday"
+        }
+      ],
+      "sample": "if isinstance(value, dt.datetime) and value.tzinfo is not None:\ntoday = dt.datetime.now(value.tzinfo).date()\nelse:\ntoday"
+    },
+    {
+      "hash": "9070cf2f0c810998dfb2ab9a6eb459ab",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "time.py",
+          "start_line": 339,
+          "end_line": 342,
+          "sample": "today = dt.datetime.now(value.tzinfo).date()\nelse:\ntoday = dt.date.today()\nvalue = dt.date(value.year, value.month, valu"
+        },
+        {
+          "file": "time.py",
+          "start_line": 370,
+          "end_line": 373,
+          "sample": "today = dt.datetime.now(value.tzinfo).date()\nelse:\ntoday = dt.date.today()\nvalue = dt.date(value.year, value.month, valu"
+        }
+      ],
+      "sample": "today = dt.datetime.now(value.tzinfo).date()\nelse:\ntoday = dt.date.today()\nvalue = dt.date(value.year, value.month, valu"
+    },
+    {
+      "hash": "2046552684128a2a743d6483611abc07",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "time.py",
+          "start_line": 340,
+          "end_line": 343,
+          "sample": "else:\ntoday = dt.date.today()\nvalue = dt.date(value.year, value.month, value.day)\nexcept AttributeError:"
+        },
+        {
+          "file": "time.py",
+          "start_line": 371,
+          "end_line": 374,
+          "sample": "else:\ntoday = dt.date.today()\nvalue = dt.date(value.year, value.month, value.day)\nexcept AttributeError:"
+        }
+      ],
+      "sample": "else:\ntoday = dt.date.today()\nvalue = dt.date(value.year, value.month, value.day)\nexcept AttributeError:"
+    },
+    {
+      "hash": "18ee07e49539ca4dd7c37268f44e3a3d",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "time.py",
+          "start_line": 341,
+          "end_line": 345,
+          "sample": "today = dt.date.today()\nvalue = dt.date(value.year, value.month, value.day)\nexcept AttributeError:\nreturn str(value)"
+        },
+        {
+          "file": "time.py",
+          "start_line": 372,
+          "end_line": 376,
+          "sample": "today = dt.date.today()\nvalue = dt.date(value.year, value.month, value.day)\nexcept AttributeError:\nreturn str(value)"
+        }
+      ],
+      "sample": "today = dt.date.today()\nvalue = dt.date(value.year, value.month, value.day)\nexcept AttributeError:\nreturn str(value)"
+    },
+    {
+      "hash": "3e684bd00ef34bcbd68cf106dfba344f",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "time.py",
+          "start_line": 342,
+          "end_line": 346,
+          "sample": "value = dt.date(value.year, value.month, value.day)\nexcept AttributeError:\nreturn str(value)\nexcept (OverflowError, Valu"
+        },
+        {
+          "file": "time.py",
+          "start_line": 373,
+          "end_line": 377,
+          "sample": "value = dt.date(value.year, value.month, value.day)\nexcept AttributeError:\nreturn str(value)\nexcept (OverflowError, Valu"
+        }
+      ],
+      "sample": "value = dt.date(value.year, value.month, value.day)\nexcept AttributeError:\nreturn str(value)\nexcept (OverflowError, Valu"
+    },
+    {
+      "hash": "0ee84cfa7d0a430bc05cb17e2c48a21a",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "time.py",
+          "start_line": 343,
+          "end_line": 348,
+          "sample": "except AttributeError:\nreturn str(value)\nexcept (OverflowError, ValueError):\nreturn str(value)"
+        },
+        {
+          "file": "time.py",
+          "start_line": 374,
+          "end_line": 379,
+          "sample": "except AttributeError:\nreturn str(value)\nexcept (OverflowError, ValueError):\nreturn str(value)"
+        }
+      ],
+      "sample": "except AttributeError:\nreturn str(value)\nexcept (OverflowError, ValueError):\nreturn str(value)"
+    },
+    {
+      "hash": "b213de7a52e53ec7ae75d247da856445",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "number.py",
+          "start_line": 318,
+          "end_line": 323,
+          "sample": "'None'\n```\nArgs:\nvalue (int, float, str): Integer to convert."
+        },
+        {
+          "file": "number.py",
+          "start_line": 372,
+          "end_line": 377,
+          "sample": "'None'\n```\nArgs:\nvalue (int, float, str): Integer to convert."
+        }
+      ],
+      "sample": "'None'\n```\nArgs:\nvalue (int, float, str): Integer to convert."
+    },
+    {
+      "hash": "1bbbe24c97a58f1da92683a0725602b0",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "number.py",
+          "start_line": 320,
+          "end_line": 325,
+          "sample": "```\nArgs:\nvalue (int, float, str): Integer to convert.\nReturns:"
+        },
+        {
+          "file": "number.py",
+          "start_line": 374,
+          "end_line": 379,
+          "sample": "```\nArgs:\nvalue (int, float, str): Integer to convert.\nReturns:"
+        }
+      ],
+      "sample": "```\nArgs:\nvalue (int, float, str): Integer to convert.\nReturns:"
+    },
+    {
+      "hash": "e3aa63fcbac84866343a9576322c0fc1",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "i18n.py",
+          "start_line": 107,
+          "end_line": 111,
+          "sample": "message (str): Text to translate.\nReturns:\nstr: Translated text.\n\"\"\""
+        },
+        {
+          "file": "i18n.py",
+          "start_line": 123,
+          "end_line": 127,
+          "sample": "message (str): Text to translate.\nReturns:\nstr: Translated text.\n\"\"\""
+        }
+      ],
+      "sample": "message (str): Text to translate.\nReturns:\nstr: Translated text.\n\"\"\""
+    }
+  ],
+  "file_metrics": {
+    "time.py": {
+      "sloc": 353,
+      "mi": 37.39,
+      "mi_rank": "A",
+      "imports_count": 9,
+      "imported_modules": [
+        "__future__",
+        "collections",
+        "datetime",
+        "enum",
+        "functools",
+        "i18n",
+        "math",
+        "number",
+        "typing"
+      ]
+    },
+    "lists.py": {
+      "sloc": 16,
+      "mi": 86.58,
+      "mi_rank": "A",
+      "imports_count": 3,
+      "imported_modules": [
+        "__future__",
+        "collections",
+        "typing"
+      ]
+    },
+    "number.py": {
+      "sloc": 254,
+      "mi": 44.87,
+      "mi_rank": "A",
+      "imports_count": 7,
+      "imported_modules": [
+        "__future__",
+        "bisect",
+        "collections",
+        "fractions",
+        "i18n",
+        "math",
+        "typing"
+      ]
+    },
+    "filesize.py": {
+      "sloc": 57,
+      "mi": 77.9,
+      "mi_rank": "A",
+      "imports_count": 3,
+      "imported_modules": [
+        "__future__",
+        "humanize",
+        "math"
+      ]
+    },
+    "__init__.py": {
+      "sloc": 52,
+      "mi": 100.0,
+      "mi_rank": "A",
+      "imports_count": 3,
+      "imported_modules": [
+        "__future__",
+        "_version",
+        "humanize"
+      ]
+    },
+    "i18n.py": {
+      "sloc": 76,
+      "mi": 69.22,
+      "mi_rank": "A",
+      "imports_count": 6,
+      "imported_modules": [
+        "__future__",
+        "gettext",
+        "importlib",
+        "os",
+        "pathlib",
+        "threading"
+      ]
+    }
+  }
+}

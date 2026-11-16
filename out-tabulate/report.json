@@ -1,0 +1,1897 @@
+{
+  "project": "tabulate",
+  "summary": {
+    "total_files": 3,
+    "total_functions": 76,
+    "total_smells": 2,
+    "total_duplicate_patterns": 45,
+    "complexity_bands": {
+      "A": 56,
+      "B": 9,
+      "C": 6,
+      "F": 2,
+      "D": 1,
+      "E": 2
+    }
+  },
+  "functions": [
+    {
+      "file": "__init__.py",
+      "name": "_is_file",
+      "line": 118,
+      "end_line": 119,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_is_separating_line_value",
+      "line": 122,
+      "end_line": 123,
+      "length": 2,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_is_separating_line",
+      "line": 126,
+      "end_line": 130,
+      "length": 5,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_pipe_segment_with_colons",
+      "line": 134,
+      "end_line": 145,
+      "length": 12,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_pipe_line_with_colons",
+      "line": 148,
+      "end_line": 154,
+      "length": 7,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_grid_segment_with_colons",
+      "line": 157,
+      "end_line": 168,
+      "length": 12,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_grid_line_with_colons",
+      "line": 171,
+      "end_line": 177,
+      "length": 7,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_mediawiki_row_with_attrs",
+      "line": 180,
+      "end_line": 193,
+      "length": 14,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_textile_row_with_attrs",
+      "line": 196,
+      "end_line": 200,
+      "length": 5,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_html_begin_table_without_header",
+      "line": 203,
+      "end_line": 205,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_html_row_with_attrs",
+      "line": 208,
+      "end_line": 228,
+      "length": 21,
+      "complexity": 5,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_moin_row_with_attrs",
+      "line": 231,
+      "end_line": 242,
+      "length": 12,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_latex_line_begin_tabular",
+      "line": 245,
+      "end_line": 253,
+      "length": 9,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_asciidoc_row",
+      "line": 258,
+      "end_line": 306,
+      "length": 49,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_rst_escape_first_column",
+      "line": 333,
+      "end_line": 349,
+      "length": 17,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "simple_separated_format",
+      "line": 815,
+      "end_line": 831,
+      "length": 17,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_isnumber_with_thousands_separator",
+      "line": 835,
+      "end_line": 865,
+      "length": 31,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_isconvertible",
+      "line": 868,
+      "end_line": 873,
+      "length": 6,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_isnumber",
+      "line": 876,
+      "end_line": 921,
+      "length": 46,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_isint",
+      "line": 928,
+      "end_line": 942,
+      "length": 15,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_isbool",
+      "line": 947,
+      "end_line": 957,
+      "length": 11,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_type",
+      "line": 961,
+      "end_line": 1008,
+      "length": 48,
+      "complexity": 18,
+      "rank": "C"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_afterpoint",
+      "line": 1011,
+      "end_line": 1037,
+      "length": 27,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_padleft",
+      "line": 1040,
+      "end_line": 1048,
+      "length": 9,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_padright",
+      "line": 1051,
+      "end_line": 1059,
+      "length": 9,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_padboth",
+      "line": 1062,
+      "end_line": 1070,
+      "length": 9,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_padnone",
+      "line": 1073,
+      "end_line": 1074,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_strip_ansi",
+      "line": 1077,
+      "end_line": 1094,
+      "length": 18,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_visible_width",
+      "line": 1097,
+      "end_line": 1120,
+      "length": 24,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_is_multiline",
+      "line": 1123,
+      "end_line": 1127,
+      "length": 5,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_multiline_width",
+      "line": 1130,
+      "end_line": 1132,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_choose_width_fn",
+      "line": 1135,
+      "end_line": 1147,
+      "length": 13,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_align_column_choose_padfn",
+      "line": 1150,
+      "end_line": 1173,
+      "length": 24,
+      "complexity": 15,
+      "rank": "C"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_align_column_choose_width_fn",
+      "line": 1176,
+      "end_line": 1189,
+      "length": 14,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_align_column_multiline_width",
+      "line": 1192,
+      "end_line": 1194,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_flat_list",
+      "line": 1197,
+      "end_line": 1204,
+      "length": 8,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_align_column",
+      "line": 1207,
+      "end_line": 1252,
+      "length": 46,
+      "complexity": 18,
+      "rank": "C"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_more_generic",
+      "line": 1255,
+      "end_line": 1273,
+      "length": 19,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_column_type",
+      "line": 1276,
+      "end_line": 1299,
+      "length": 24,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_format",
+      "line": 1302,
+      "end_line": 1358,
+      "length": 57,
+      "complexity": 20,
+      "rank": "C"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_align_header",
+      "line": 1361,
+      "end_line": 1377,
+      "length": 17,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_remove_separating_lines",
+      "line": 1380,
+      "end_line": 1391,
+      "length": 12,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_reinsert_separating_lines",
+      "line": 1394,
+      "end_line": 1397,
+      "length": 4,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_prepend_row_index",
+      "line": 1400,
+      "end_line": 1417,
+      "length": 18,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_bool",
+      "line": 1420,
+      "end_line": 1425,
+      "length": 6,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_normalize_tabular_data",
+      "line": 1428,
+      "end_line": 1613,
+      "length": 186,
+      "complexity": 76,
+      "rank": "F"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_wrap_text_to_colwidths",
+      "line": 1616,
+      "end_line": 1668,
+      "length": 53,
+      "complexity": 12,
+      "rank": "C"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_to_str",
+      "line": 1671,
+      "end_line": 1693,
+      "length": 23,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "tabulate",
+      "line": 1696,
+      "end_line": 2461,
+      "length": 766,
+      "complexity": 62,
+      "rank": "F"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_expand_numparse",
+      "line": 2465,
+      "end_line": 2479,
+      "length": 15,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_expand_iterable",
+      "line": 2482,
+      "end_line": 2493,
+      "length": 12,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_pad_row",
+      "line": 2496,
+      "end_line": 2504,
+      "length": 9,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_build_simple_row",
+      "line": 2507,
+      "end_line": 2523,
+      "length": 17,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_build_row",
+      "line": 2526,
+      "end_line": 2538,
+      "length": 13,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_append_basic_row",
+      "line": 2541,
+      "end_line": 2544,
+      "length": 4,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_align_cell_veritically",
+      "line": 2547,
+      "end_line": 2557,
+      "length": 11,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_append_multiline_row",
+      "line": 2560,
+      "end_line": 2578,
+      "length": 19,
+      "complexity": 7,
+      "rank": "B"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_build_line",
+      "line": 2581,
+      "end_line": 2591,
+      "length": 11,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_append_line",
+      "line": 2594,
+      "end_line": 2596,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_format_table",
+      "line": 2612,
+      "end_line": 2687,
+      "length": 76,
+      "complexity": 26,
+      "rank": "D"
+    },
+    {
+      "file": "__init__.py",
+      "name": "DataRow",
+      "line": 65,
+      "end_line": 69,
+      "length": 5,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "JupyterHTMLStr",
+      "line": 2599,
+      "end_line": 2609,
+      "length": 11,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "JupyterHTMLStr._repr_html_",
+      "line": 2603,
+      "end_line": 2604,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "JupyterHTMLStr.str",
+      "line": 2607,
+      "end_line": 2609,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_CustomTextWrap",
+      "line": 2690,
+      "end_line": 2894,
+      "length": 205,
+      "complexity": 11,
+      "rank": "C"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_CustomTextWrap.__init__",
+      "line": 2698,
+      "end_line": 2701,
+      "length": 4,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_CustomTextWrap._len",
+      "line": 2704,
+      "end_line": 2711,
+      "length": 8,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_CustomTextWrap._update_lines",
+      "line": 2713,
+      "end_line": 2736,
+      "length": 24,
+      "complexity": 5,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_CustomTextWrap._handle_long_word",
+      "line": 2738,
+      "end_line": 2784,
+      "length": 47,
+      "complexity": 10,
+      "rank": "B"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_CustomTextWrap._wrap_chunks",
+      "line": 2792,
+      "end_line": 2894,
+      "length": 103,
+      "complexity": 31,
+      "rank": "E"
+    },
+    {
+      "file": "cli.py",
+      "name": "_main",
+      "line": 31,
+      "end_line": 177,
+      "length": 147,
+      "complexity": 31,
+      "rank": "E"
+    },
+    {
+      "file": "cli.py",
+      "name": "_read_rsv_file",
+      "line": 181,
+      "end_line": 184,
+      "length": 4,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "cli.py",
+      "name": "_read_jsonl_file",
+      "line": 187,
+      "end_line": 192,
+      "length": 6,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "cli.py",
+      "name": "_read_csv_file",
+      "line": 195,
+      "end_line": 200,
+      "length": 6,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "cli.py",
+      "name": "_open_and_pprint_file",
+      "line": 203,
+      "end_line": 208,
+      "length": 6,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "cli.py",
+      "name": "_pprint_file",
+      "line": 211,
+      "end_line": 222,
+      "length": 12,
+      "complexity": 1,
+      "rank": "A"
+    }
+  ],
+  "longest_functions": [
+    {
+      "file": "__init__.py",
+      "name": "tabulate",
+      "line": 1696,
+      "end_line": 2461,
+      "length": 766,
+      "complexity": 62,
+      "rank": "F"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_CustomTextWrap",
+      "line": 2690,
+      "end_line": 2894,
+      "length": 205,
+      "complexity": 11,
+      "rank": "C"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_normalize_tabular_data",
+      "line": 1428,
+      "end_line": 1613,
+      "length": 186,
+      "complexity": 76,
+      "rank": "F"
+    },
+    {
+      "file": "cli.py",
+      "name": "_main",
+      "line": 31,
+      "end_line": 177,
+      "length": 147,
+      "complexity": 31,
+      "rank": "E"
+    },
+    {
+      "file": "__init__.py",
+      "name": "_CustomTextWrap._wrap_chunks",
+      "line": 2792,
+      "end_line": 2894,
+      "length": 103,
+      "complexity": 31,
+      "rank": "E"
+    }
+  ],
+  "hotspots": [
+    {
+      "file": "__init__.py",
+      "max_complexity": 76,
+      "sloc": 1639,
+      "mi": 0.0,
+      "mi_rank": "C",
+      "imports": 15,
+      "score": 2
+    },
+    {
+      "file": "cli.py",
+      "max_complexity": 31,
+      "sloc": 157,
+      "mi": 57.81,
+      "mi_rank": "A",
+      "imports": 9,
+      "score": 4
+    },
+    {
+      "file": "__main__.py",
+      "max_complexity": 0,
+      "sloc": 2,
+      "mi": 100.0,
+      "mi_rank": "A",
+      "imports": 1,
+      "score": 6
+    }
+  ],
+  "smells": [
+    {
+      "file": "__init__.py",
+      "line": 748,
+      "keyword": "TODO",
+      "text": "# TODO: Add multiline support for the remaining table formats:"
+    },
+    {
+      "file": "__init__.py",
+      "line": 1224,
+      "keyword": "TODO",
+      "text": "# TODO: refactor column alignment in single-line and multiline modes"
+    }
+  ],
+  "smells_by_file": {
+    "__init__.py": [
+      {
+        "file": "__init__.py",
+        "line": 748,
+        "keyword": "TODO",
+        "text": "# TODO: Add multiline support for the remaining table formats:"
+      },
+      {
+        "file": "__init__.py",
+        "line": 1224,
+        "keyword": "TODO",
+        "text": "# TODO: refactor column alignment in single-line and multiline modes"
+      }
+    ]
+  },
+  "duplicates": [
+    {
+      "hash": "417e9ca5ad5ef3a2389c2463d5aa38b9",
+      "instances": 8,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 388,
+          "end_line": 391,
+          "sample": "headerrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 398,
+          "end_line": 401,
+          "sample": "headerrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 418,
+          "end_line": 421,
+          "sample": "headerrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 438,
+          "end_line": 441,
+          "sample": "headerrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 468,
+          "end_line": 471,
+          "sample": "headerrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 478,
+          "end_line": 481,
+          "sample": "headerrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 498,
+          "end_line": 501,
+          "sample": "headerrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 518,
+          "end_line": 521,
+          "sample": "headerrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,"
+        }
+      ],
+      "sample": "headerrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,"
+    },
+    {
+      "hash": "e7d5c990acc365e284e00505519eead2",
+      "instances": 8,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 389,
+          "end_line": 392,
+          "sample": "datarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 399,
+          "end_line": 402,
+          "sample": "datarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 419,
+          "end_line": 422,
+          "sample": "datarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 439,
+          "end_line": 442,
+          "sample": "datarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 469,
+          "end_line": 472,
+          "sample": "datarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 479,
+          "end_line": 482,
+          "sample": "datarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 499,
+          "end_line": 502,
+          "sample": "datarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 519,
+          "end_line": 522,
+          "sample": "datarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,\n),"
+        }
+      ],
+      "sample": "datarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,\nwith_header_hide=None,\n),"
+    },
+    {
+      "hash": "83e3a0782d4ef654bccf79206b4dc003",
+      "instances": 7,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 379,
+          "end_line": 382,
+          "sample": "datarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 449,
+          "end_line": 452,
+          "sample": "datarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 459,
+          "end_line": 462,
+          "sample": "datarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 539,
+          "end_line": 542,
+          "sample": "datarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 549,
+          "end_line": 552,
+          "sample": "datarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 569,
+          "end_line": 572,
+          "sample": "datarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 579,
+          "end_line": 582,
+          "sample": "datarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,\n),"
+        }
+      ],
+      "sample": "datarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,\n),"
+    },
+    {
+      "hash": "fdba056d6ec6d90d1cb2a1d8bfb661a2",
+      "instances": 6,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 378,
+          "end_line": 381,
+          "sample": "headerrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 448,
+          "end_line": 451,
+          "sample": "headerrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 458,
+          "end_line": 461,
+          "sample": "headerrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 538,
+          "end_line": 541,
+          "sample": "headerrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 568,
+          "end_line": 571,
+          "sample": "headerrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 578,
+          "end_line": 581,
+          "sample": "headerrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,"
+        }
+      ],
+      "sample": "headerrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,\nwith_header_hide=None,"
+    },
+    {
+      "hash": "8a9cba2faa08e062d8233cb7dd19c9dd",
+      "instances": 5,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 364,
+          "end_line": 367,
+          "sample": "lineabove=None,\nlinebelowheader=None,\nlinebetweenrows=None,\nlinebelow=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 544,
+          "end_line": 547,
+          "sample": "lineabove=None,\nlinebelowheader=None,\nlinebetweenrows=None,\nlinebelow=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 609,
+          "end_line": 612,
+          "sample": "lineabove=None,\nlinebelowheader=None,\nlinebetweenrows=None,\nlinebelow=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 679,
+          "end_line": 682,
+          "sample": "lineabove=None,\nlinebelowheader=None,\nlinebetweenrows=None,\nlinebelow=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 689,
+          "end_line": 692,
+          "sample": "lineabove=None,\nlinebelowheader=None,\nlinebetweenrows=None,\nlinebelow=None,"
+        }
+      ],
+      "sample": "lineabove=None,\nlinebelowheader=None,\nlinebetweenrows=None,\nlinebelow=None,"
+    },
+    {
+      "hash": "03794b0ab8345d7d21289cc65554a116",
+      "instances": 5,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 377,
+          "end_line": 380,
+          "sample": "linebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 447,
+          "end_line": 450,
+          "sample": "linebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 457,
+          "end_line": 460,
+          "sample": "linebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 567,
+          "end_line": 570,
+          "sample": "linebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 577,
+          "end_line": 580,
+          "sample": "linebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,"
+        }
+      ],
+      "sample": "linebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|\"),\npadding=1,"
+    },
+    {
+      "hash": "a5fb791aacb04e90766e0cd5ac56ed22",
+      "instances": 3,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 456,
+          "end_line": 459,
+          "sample": "linebetweenrows=None,\nlinebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 566,
+          "end_line": 569,
+          "sample": "linebetweenrows=None,\nlinebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 576,
+          "end_line": 579,
+          "sample": "linebetweenrows=None,\nlinebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|"
+        }
+      ],
+      "sample": "linebetweenrows=None,\nlinebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow=DataRow(\"|\", \"|\", \"|"
+    },
+    {
+      "hash": "0c07f92e25a2bd7062abf3cd77c413e5",
+      "instances": 3,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 643,
+          "end_line": 646,
+          "sample": "headerrow=_latex_row,\ndatarow=_latex_row,\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 663,
+          "end_line": 666,
+          "sample": "headerrow=_latex_row,\ndatarow=_latex_row,\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 673,
+          "end_line": 676,
+          "sample": "headerrow=_latex_row,\ndatarow=_latex_row,\npadding=1,\nwith_header_hide=None,"
+        }
+      ],
+      "sample": "headerrow=_latex_row,\ndatarow=_latex_row,\npadding=1,\nwith_header_hide=None,"
+    },
+    {
+      "hash": "a5a3d1c616cc17681b1eb606a5849221",
+      "instances": 3,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 644,
+          "end_line": 647,
+          "sample": "datarow=_latex_row,\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 664,
+          "end_line": 667,
+          "sample": "datarow=_latex_row,\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 674,
+          "end_line": 677,
+          "sample": "datarow=_latex_row,\npadding=1,\nwith_header_hide=None,\n),"
+        }
+      ],
+      "sample": "datarow=_latex_row,\npadding=1,\nwith_header_hide=None,\n),"
+    },
+    {
+      "hash": "2b31629b1cc03c881358883b93b08942",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 368,
+          "end_line": 371,
+          "sample": "headerrow=DataRow(\"\", \"  \", \"\"),\ndatarow=DataRow(\"\", \"  \", \"\"),\npadding=0,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 588,
+          "end_line": 591,
+          "sample": "headerrow=DataRow(\"\", \"  \", \"\"),\ndatarow=DataRow(\"\", \"  \", \"\"),\npadding=0,\nwith_header_hide=None,"
+        }
+      ],
+      "sample": "headerrow=DataRow(\"\", \"  \", \"\"),\ndatarow=DataRow(\"\", \"  \", \"\"),\npadding=0,\nwith_header_hide=None,"
+    },
+    {
+      "hash": "1415fe10549016bac68ca96f7f97b02c",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 369,
+          "end_line": 372,
+          "sample": "datarow=DataRow(\"\", \"  \", \"\"),\npadding=0,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 589,
+          "end_line": 592,
+          "sample": "datarow=DataRow(\"\", \"  \", \"\"),\npadding=0,\nwith_header_hide=None,\n),"
+        }
+      ],
+      "sample": "datarow=DataRow(\"\", \"  \", \"\"),\npadding=0,\nwith_header_hide=None,\n),"
+    },
+    {
+      "hash": "c4c2b6325e9a7b5f048a504eef86b466",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 376,
+          "end_line": 379,
+          "sample": "linebetweenrows=Line(\"+\", \"-\", \"+\", \"+\"),\nlinebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow="
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 446,
+          "end_line": 449,
+          "sample": "linebetweenrows=Line(\"+\", \"-\", \"+\", \"+\"),\nlinebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow="
+        }
+      ],
+      "sample": "linebetweenrows=Line(\"+\", \"-\", \"+\", \"+\"),\nlinebelow=Line(\"+\", \"-\", \"+\", \"+\"),\nheaderrow=DataRow(\"|\", \"|\", \"|\"),\ndatarow="
+    },
+    {
+      "hash": "31856d8145783f63ae96023e2cad439b",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 387,
+          "end_line": 390,
+          "sample": "linebelow=Line(\"\u2514\", \"\u2500\", \"\u2534\", \"\u2518\"),\nheaderrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 467,
+          "end_line": 470,
+          "sample": "linebelow=Line(\"\u2514\", \"\u2500\", \"\u2534\", \"\u2518\"),\nheaderrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,"
+        }
+      ],
+      "sample": "linebelow=Line(\"\u2514\", \"\u2500\", \"\u2534\", \"\u2518\"),\nheaderrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,"
+    },
+    {
+      "hash": "c14f80242ea6a6ff00e3447f91b9a1dc",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 397,
+          "end_line": 400,
+          "sample": "linebelow=Line(\"\u2570\", \"\u2500\", \"\u2534\", \"\u256f\"),\nheaderrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 477,
+          "end_line": 480,
+          "sample": "linebelow=Line(\"\u2570\", \"\u2500\", \"\u2534\", \"\u256f\"),\nheaderrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,"
+        }
+      ],
+      "sample": "linebelow=Line(\"\u2570\", \"\u2500\", \"\u2534\", \"\u256f\"),\nheaderrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,"
+    },
+    {
+      "hash": "e6ee786aae7611b1e21b69ec0285e37f",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 407,
+          "end_line": 410,
+          "sample": "linebelow=Line(\"\u2517\", \"\u2501\", \"\u253b\", \"\u251b\"),\nheaderrow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\ndatarow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\npadding=1,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 487,
+          "end_line": 490,
+          "sample": "linebelow=Line(\"\u2517\", \"\u2501\", \"\u253b\", \"\u251b\"),\nheaderrow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\ndatarow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\npadding=1,"
+        }
+      ],
+      "sample": "linebelow=Line(\"\u2517\", \"\u2501\", \"\u253b\", \"\u251b\"),\nheaderrow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\ndatarow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\npadding=1,"
+    },
+    {
+      "hash": "b5b74f39923d54ee7716df6abc6c069f",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 408,
+          "end_line": 411,
+          "sample": "headerrow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\ndatarow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 488,
+          "end_line": 491,
+          "sample": "headerrow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\ndatarow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\npadding=1,\nwith_header_hide=None,"
+        }
+      ],
+      "sample": "headerrow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\ndatarow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\npadding=1,\nwith_header_hide=None,"
+    },
+    {
+      "hash": "2f10a5854f4a0133ed786f3f9a5d4bec",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 409,
+          "end_line": 412,
+          "sample": "datarow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 489,
+          "end_line": 492,
+          "sample": "datarow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\npadding=1,\nwith_header_hide=None,\n),"
+        }
+      ],
+      "sample": "datarow=DataRow(\"\u2503\", \"\u2503\", \"\u2503\"),\npadding=1,\nwith_header_hide=None,\n),"
+    },
+    {
+      "hash": "159ef1ffac8a94515dd1b098e3d327a9",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 417,
+          "end_line": 420,
+          "sample": "linebelow=Line(\"\u2515\", \"\u2501\", \"\u2537\", \"\u2519\"),\nheaderrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 497,
+          "end_line": 500,
+          "sample": "linebelow=Line(\"\u2515\", \"\u2501\", \"\u2537\", \"\u2519\"),\nheaderrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,"
+        }
+      ],
+      "sample": "linebelow=Line(\"\u2515\", \"\u2501\", \"\u2537\", \"\u2519\"),\nheaderrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,"
+    },
+    {
+      "hash": "87fdba5bd5de91d35cc433346cab9385",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 427,
+          "end_line": 430,
+          "sample": "linebelow=Line(\"\u255a\", \"\u2550\", \"\u2569\", \"\u255d\"),\nheaderrow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\ndatarow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\npadding=1,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 507,
+          "end_line": 510,
+          "sample": "linebelow=Line(\"\u255a\", \"\u2550\", \"\u2569\", \"\u255d\"),\nheaderrow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\ndatarow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\npadding=1,"
+        }
+      ],
+      "sample": "linebelow=Line(\"\u255a\", \"\u2550\", \"\u2569\", \"\u255d\"),\nheaderrow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\ndatarow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\npadding=1,"
+    },
+    {
+      "hash": "8d170d30abf77cbec6d4b3e552bfd79d",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 428,
+          "end_line": 431,
+          "sample": "headerrow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\ndatarow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\npadding=1,\nwith_header_hide=None,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 508,
+          "end_line": 511,
+          "sample": "headerrow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\ndatarow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\npadding=1,\nwith_header_hide=None,"
+        }
+      ],
+      "sample": "headerrow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\ndatarow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\npadding=1,\nwith_header_hide=None,"
+    },
+    {
+      "hash": "389e9c578ed52e528656ce1bafcf970e",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 429,
+          "end_line": 432,
+          "sample": "datarow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\npadding=1,\nwith_header_hide=None,\n),"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 509,
+          "end_line": 512,
+          "sample": "datarow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\npadding=1,\nwith_header_hide=None,\n),"
+        }
+      ],
+      "sample": "datarow=DataRow(\"\u2551\", \"\u2551\", \"\u2551\"),\npadding=1,\nwith_header_hide=None,\n),"
+    },
+    {
+      "hash": "f81c37155a42def69056a4272c9ad21f",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 437,
+          "end_line": 440,
+          "sample": "linebelow=Line(\"\u2558\", \"\u2550\", \"\u2567\", \"\u255b\"),\nheaderrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 517,
+          "end_line": 520,
+          "sample": "linebelow=Line(\"\u2558\", \"\u2550\", \"\u2567\", \"\u255b\"),\nheaderrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,"
+        }
+      ],
+      "sample": "linebelow=Line(\"\u2558\", \"\u2550\", \"\u2567\", \"\u255b\"),\nheaderrow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\ndatarow=DataRow(\"\u2502\", \"\u2502\", \"\u2502\"),\npadding=1,"
+    },
+    {
+      "hash": "6069907b8ee9c9f6db29506ca2cd6073",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 619,
+          "end_line": 622,
+          "sample": "lineabove=_html_begin_table_without_header,\nlinebelowheader=\"\",\nlinebetweenrows=None,\nlinebelow=Line(\"</tbody>\\n</table>"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 629,
+          "end_line": 632,
+          "sample": "lineabove=_html_begin_table_without_header,\nlinebelowheader=\"\",\nlinebetweenrows=None,\nlinebelow=Line(\"</tbody>\\n</table>"
+        }
+      ],
+      "sample": "lineabove=_html_begin_table_without_header,\nlinebelowheader=\"\",\nlinebetweenrows=None,\nlinebelow=Line(\"</tbody>\\n</table>"
+    },
+    {
+      "hash": "b90a9dc74180a0235371c0358c7da906",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 639,
+          "end_line": 642,
+          "sample": "lineabove=_latex_line_begin_tabular,\nlinebelowheader=Line(\"\\\\hline\", \"\", \"\", \"\"),\nlinebetweenrows=None,\nlinebelow=Line(\""
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 649,
+          "end_line": 652,
+          "sample": "lineabove=_latex_line_begin_tabular,\nlinebelowheader=Line(\"\\\\hline\", \"\", \"\", \"\"),\nlinebetweenrows=None,\nlinebelow=Line(\""
+        }
+      ],
+      "sample": "lineabove=_latex_line_begin_tabular,\nlinebelowheader=Line(\"\\\\hline\", \"\", \"\", \"\"),\nlinebetweenrows=None,\nlinebelow=Line(\""
+    },
+    {
+      "hash": "3c418034d711d978aa98920c037f46cb",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1137,
+          "end_line": 1140,
+          "sample": "if has_invisible:\nline_width_fn = _visible_width\nelif enable_widechars:  # optional wide-character support if available\n"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 1177,
+          "end_line": 1180,
+          "sample": "if has_invisible:\nline_width_fn = _visible_width\nelif enable_widechars:  # optional wide-character support if available\n"
+        }
+      ],
+      "sample": "if has_invisible:\nline_width_fn = _visible_width\nelif enable_widechars:  # optional wide-character support if available\n"
+    },
+    {
+      "hash": "79181b62b0a2281777746e9ea9a08ef1",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1138,
+          "end_line": 1141,
+          "sample": "line_width_fn = _visible_width\nelif enable_widechars:  # optional wide-character support if available\nline_width_fn = wc"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 1178,
+          "end_line": 1181,
+          "sample": "line_width_fn = _visible_width\nelif enable_widechars:  # optional wide-character support if available\nline_width_fn = wc"
+        }
+      ],
+      "sample": "line_width_fn = _visible_width\nelif enable_widechars:  # optional wide-character support if available\nline_width_fn = wc"
+    },
+    {
+      "hash": "979bae75b3a3b841ce1103c9ef0cac95",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1139,
+          "end_line": 1142,
+          "sample": "elif enable_widechars:  # optional wide-character support if available\nline_width_fn = wcwidth.wcswidth\nelse:\nline_width"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 1179,
+          "end_line": 1182,
+          "sample": "elif enable_widechars:  # optional wide-character support if available\nline_width_fn = wcwidth.wcswidth\nelse:\nline_width"
+        }
+      ],
+      "sample": "elif enable_widechars:  # optional wide-character support if available\nline_width_fn = wcwidth.wcswidth\nelse:\nline_width"
+    },
+    {
+      "hash": "a2ccdb538b1465ed1734bfa31b5113b4",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1140,
+          "end_line": 1143,
+          "sample": "line_width_fn = wcwidth.wcswidth\nelse:\nline_width_fn = len\nif is_multiline:"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 1180,
+          "end_line": 1183,
+          "sample": "line_width_fn = wcwidth.wcswidth\nelse:\nline_width_fn = len\nif is_multiline:"
+        }
+      ],
+      "sample": "line_width_fn = wcwidth.wcswidth\nelse:\nline_width_fn = len\nif is_multiline:"
+    },
+    {
+      "hash": "cca1c056ad9163ec9478db9211cb0779",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1624,
+          "end_line": 1627,
+          "sample": "if len(list_of_lists):\nnum_cols = len(list_of_lists[0])\nelse:\nnum_cols = 0"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 2248,
+          "end_line": 2251,
+          "sample": "if len(list_of_lists):\nnum_cols = len(list_of_lists[0])\nelse:\nnum_cols = 0"
+        }
+      ],
+      "sample": "if len(list_of_lists):\nnum_cols = len(list_of_lists[0])\nelse:\nnum_cols = 0"
+    },
+    {
+      "hash": "e9adb04943add01839335e4016d97bb8",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1859,
+          "end_line": 1862,
+          "sample": "+-----------+-----------+\n| strings   |   numbers |\n+===========+===========+\n| spam      |   41.9999 |"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 1981,
+          "end_line": 1984,
+          "sample": "+-----------+-----------+\n| strings   |   numbers |\n+===========+===========+\n| spam      |   41.9999 |"
+        }
+      ],
+      "sample": "+-----------+-----------+\n| strings   |   numbers |\n+===========+===========+\n| spam      |   41.9999 |"
+    },
+    {
+      "hash": "f7aae416fbf3608c72cdbb763e11fa5a",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1879,
+          "end_line": 1882,
+          "sample": "\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502 strings   \u2502   numbers \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 1998,
+          "end_line": 2001,
+          "sample": "\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502 strings   \u2502   numbers \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502"
+        }
+      ],
+      "sample": "\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502 strings   \u2502   numbers \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502"
+    },
+    {
+      "hash": "e8380e697c4df9b143192cfe0e142267",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1880,
+          "end_line": 1883,
+          "sample": "\u2502 strings   \u2502   numbers \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 1893,
+          "end_line": 1896,
+          "sample": "\u2502 strings   \u2502   numbers \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524"
+        }
+      ],
+      "sample": "\u2502 strings   \u2502   numbers \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524"
+    },
+    {
+      "hash": "affa6062a45c0c4bef8c84fcf4d387ac",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1881,
+          "end_line": 1884,
+          "sample": "\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 eggs      \u2502  451      \u2502"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 1894,
+          "end_line": 1897,
+          "sample": "\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 eggs      \u2502  451      \u2502"
+        }
+      ],
+      "sample": "\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 eggs      \u2502  451      \u2502"
+    },
+    {
+      "hash": "a0f40abf21975e9946c75bb47daac196",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1892,
+          "end_line": 1895,
+          "sample": "\u256d\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256e\n\u2502 strings   \u2502   numbers \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 2009,
+          "end_line": 2012,
+          "sample": "\u256d\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256e\n\u2502 strings   \u2502   numbers \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502"
+        }
+      ],
+      "sample": "\u256d\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256e\n\u2502 strings   \u2502   numbers \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502"
+    },
+    {
+      "hash": "d7f75f09d0478894f9a27c28fc558bcd",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1905,
+          "end_line": 1908,
+          "sample": "\u250f\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2533\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2513\n\u2503 strings   \u2503   numbers \u2503\n\u2523\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u254b\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u252b\n\u2503 spam      \u2503   41.9999 \u2503"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 2020,
+          "end_line": 2023,
+          "sample": "\u250f\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2533\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2513\n\u2503 strings   \u2503   numbers \u2503\n\u2523\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u254b\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u252b\n\u2503 spam      \u2503   41.9999 \u2503"
+        }
+      ],
+      "sample": "\u250f\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2533\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2513\n\u2503 strings   \u2503   numbers \u2503\n\u2523\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u254b\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u252b\n\u2503 spam      \u2503   41.9999 \u2503"
+    },
+    {
+      "hash": "f8916b8bc011e6ecaddf70be46abcc64",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1918,
+          "end_line": 1921,
+          "sample": "\u250d\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u252f\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2511\n\u2502 strings   \u2502   numbers \u2502\n\u251d\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u253f\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2525\n\u2502 spam      \u2502   41.9999 \u2502"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 2031,
+          "end_line": 2034,
+          "sample": "\u250d\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u252f\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2511\n\u2502 strings   \u2502   numbers \u2502\n\u251d\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u253f\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2525\n\u2502 spam      \u2502   41.9999 \u2502"
+        }
+      ],
+      "sample": "\u250d\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u252f\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2511\n\u2502 strings   \u2502   numbers \u2502\n\u251d\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u253f\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2525\n\u2502 spam      \u2502   41.9999 \u2502"
+    },
+    {
+      "hash": "558e42acfdb7ee94bcb951c54e9bf413",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1931,
+          "end_line": 1934,
+          "sample": "\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2566\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 strings   \u2551   numbers \u2551\n\u2560\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u256c\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2563\n\u2551 spam      \u2551   41.9999 \u2551"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 2042,
+          "end_line": 2045,
+          "sample": "\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2566\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 strings   \u2551   numbers \u2551\n\u2560\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u256c\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2563\n\u2551 spam      \u2551   41.9999 \u2551"
+        }
+      ],
+      "sample": "\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2566\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 strings   \u2551   numbers \u2551\n\u2560\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u256c\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2563\n\u2551 spam      \u2551   41.9999 \u2551"
+    },
+    {
+      "hash": "dde4b6515781903c887115d2d9dd875b",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1944,
+          "end_line": 1947,
+          "sample": "\u2552\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2564\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2555\n\u2502 strings   \u2502   numbers \u2502\n\u255e\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u256a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2561\n\u2502 spam      \u2502   41.9999 \u2502"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 2053,
+          "end_line": 2056,
+          "sample": "\u2552\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2564\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2555\n\u2502 strings   \u2502   numbers \u2502\n\u255e\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u256a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2561\n\u2502 spam      \u2502   41.9999 \u2502"
+        }
+      ],
+      "sample": "\u2552\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2564\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2555\n\u2502 strings   \u2502   numbers \u2502\n\u255e\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u256a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2561\n\u2502 spam      \u2502   41.9999 \u2502"
+    },
+    {
+      "hash": "d2b96bd2dd52c204816ecc69a1c8d238",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1961,
+          "end_line": 1964,
+          "sample": "| spam      | 41.9999   |\n+-----------+-----------+\n| eggs      | 451       |\n+-----------+-----------+"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 1972,
+          "end_line": 1975,
+          "sample": "| spam      | 41.9999   |\n+-----------+-----------+\n| eggs      | 451       |\n+-----------+-----------+"
+        }
+      ],
+      "sample": "| spam      | 41.9999   |\n+-----------+-----------+\n| eggs      | 451       |\n+-----------+-----------+"
+    },
+    {
+      "hash": "78080d979e57f6593915e557d7c4cc6c",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 1999,
+          "end_line": 2002,
+          "sample": "\u2502 strings   \u2502   numbers \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502\n\u2502 eggs      \u2502  451      \u2502"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 2010,
+          "end_line": 2013,
+          "sample": "\u2502 strings   \u2502   numbers \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502\n\u2502 eggs      \u2502  451      \u2502"
+        }
+      ],
+      "sample": "\u2502 strings   \u2502   numbers \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502 spam      \u2502   41.9999 \u2502\n\u2502 eggs      \u2502  451      \u2502"
+    },
+    {
+      "hash": "a5e43dbcc4ffee80e0ba967ce3edbe76",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 2155,
+          "end_line": 2158,
+          "sample": "\\\\hline\nspam &  41.9999 \\\\\\\\\neggs & 451      \\\\\\\\\n\\\\hline"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 2189,
+          "end_line": 2192,
+          "sample": "\\\\hline\nspam &  41.9999 \\\\\\\\\neggs & 451      \\\\\\\\\n\\\\hline"
+        }
+      ],
+      "sample": "\\\\hline\nspam &  41.9999 \\\\\\\\\neggs & 451      \\\\\\\\\n\\\\hline"
+    },
+    {
+      "hash": "fc99fb59ea95ff3de2462ab1dbba784b",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "__init__.py",
+          "start_line": 2261,
+          "end_line": 2264,
+          "sample": "numparses=numparses,\nmissingval=missingval,\nbreak_long_words=break_long_words,\nbreak_on_hyphens=break_on_hyphens,"
+        },
+        {
+          "file": "__init__.py",
+          "start_line": 2278,
+          "end_line": 2281,
+          "sample": "numparses=numparses,\nmissingval=missingval,\nbreak_long_words=break_long_words,\nbreak_on_hyphens=break_on_hyphens,"
+        }
+      ],
+      "sample": "numparses=numparses,\nmissingval=missingval,\nbreak_long_words=break_long_words,\nbreak_on_hyphens=break_on_hyphens,"
+    },
+    {
+      "hash": "0b0fba7571f8e01330cfb385e5e001a5",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "cli.py",
+          "start_line": 10,
+          "end_line": 13,
+          "sample": "_DEFAULT_FLOATFMT,\n_DEFAULT_INTFMT,\n_is_file,\ntabulate,"
+        },
+        {
+          "file": "cli.py",
+          "start_line": 23,
+          "end_line": 26,
+          "sample": "_DEFAULT_FLOATFMT,\n_DEFAULT_INTFMT,\n_is_file,\ntabulate,"
+        }
+      ],
+      "sample": "_DEFAULT_FLOATFMT,\n_DEFAULT_INTFMT,\n_is_file,\ntabulate,"
+    },
+    {
+      "hash": "32bf423b9261f7fc97fc7212e7b9473d",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "cli.py",
+          "start_line": 11,
+          "end_line": 14,
+          "sample": "_DEFAULT_INTFMT,\n_is_file,\ntabulate,\ntabulate_formats,"
+        },
+        {
+          "file": "cli.py",
+          "start_line": 24,
+          "end_line": 27,
+          "sample": "_DEFAULT_INTFMT,\n_is_file,\ntabulate,\ntabulate_formats,"
+        }
+      ],
+      "sample": "_DEFAULT_INTFMT,\n_is_file,\ntabulate,\ntabulate_formats,"
+    },
+    {
+      "hash": "cbdb2e4fc132e5196a639c9cfd9bffe6",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "cli.py",
+          "start_line": 12,
+          "end_line": 15,
+          "sample": "_is_file,\ntabulate,\ntabulate_formats,\n)"
+        },
+        {
+          "file": "cli.py",
+          "start_line": 25,
+          "end_line": 28,
+          "sample": "_is_file,\ntabulate,\ntabulate_formats,\n)"
+        }
+      ],
+      "sample": "_is_file,\ntabulate,\ntabulate_formats,\n)"
+    }
+  ],
+  "file_metrics": {
+    "__init__.py": {
+      "sloc": 1639,
+      "mi": 0.0,
+      "mi_rank": "C",
+      "imports_count": 15,
+      "imported_modules": [
+        "_version",
+        "cli",
+        "collections",
+        "dataclasses",
+        "decimal",
+        "functools",
+        "html",
+        "importlib",
+        "io",
+        "itertools",
+        "math",
+        "re",
+        "textwrap",
+        "warnings",
+        "wcwidth"
+      ]
+    },
+    "cli.py": {
+      "sloc": 157,
+      "mi": 57.81,
+      "mi_rank": "A",
+      "imports_count": 9,
+      "imported_modules": [
+        "csv",
+        "functools",
+        "getopt",
+        "json",
+        "os",
+        "re",
+        "sys",
+        "tabulate",
+        "textwrap"
+      ]
+    },
+    "__main__.py": {
+      "sloc": 2,
+      "mi": 100.0,
+      "mi_rank": "A",
+      "imports_count": 1,
+      "imported_modules": [
+        "tabulate"
+      ]
+    }
+  }
+}
